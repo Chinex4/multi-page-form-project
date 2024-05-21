@@ -1,0 +1,15 @@
+.nav-background {
+    background-image: url(./assets/images/bg-sidebar-desktop.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-background {
+        background-image: url(./assets/images/bg-sidebar-mobile.svg);
+        /* color: #02295a; Marine Blue */
+        /* color: #473dff; Purple Blue */
+        /* color: #d6d9e6; light grey */
+        color: #d6d9e6;
+    }
+}
